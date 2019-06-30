@@ -47,6 +47,9 @@ section nav{
     margin-left: 2em;
 }
 
+section nav ul li{
+    font-size: 20px;
+}
 
 #img1{
     
@@ -75,6 +78,19 @@ section nav{
     width: 300px;
     height: 100px;
 }
+
+aside{
+    float: right;
+    
+    margin-top:2em;
+    margin-right: 3em;
+}
+
+aside form{
+    padding: 2em;
+}
+
+
 
 footer{
     height: 150px;
