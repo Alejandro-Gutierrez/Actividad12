@@ -1,0 +1,42 @@
+header, #logo{
+    background: #253b44;
+}
+
+#titulo, #menu ul li a{
+    color:white;
+}
+
+#menu ul li a:hover{
+    background: white;
+    color:#253b44;
+    padding-bottom: 1em;
+}
+
+body{
+    background: #6d4238;
+    margin: 0em;
+}
+
+section{
+    background: #c0af84;
+    
+}
+
+
+#des1 p{
+    border-bottom:1px solid#253b44; 
+    
+}
+
+
+#linea{
+    border:1px solid #253b44;
+}
+
+h2{
+    color:#47170d;
+}
+
+footer{
+    background: #253b44;
+}

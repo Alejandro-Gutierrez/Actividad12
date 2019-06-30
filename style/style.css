@@ -1,11 +1,9 @@
-header, section, aside, footer{
-    border: 1px solid red;
-}
+
 
 
 /*Encabezado */
 #logo, #menu{
-    border: 1px solid red;
+    
     display: inline-block;
 }
 
@@ -24,6 +22,7 @@ header, section, aside, footer{
     display: inline-block;
 
 }
+
 #menu{
     margin-left: 30em;
 }
@@ -40,28 +39,22 @@ section{
     margin-top: 2em;
     margin-left: 10em;
     display: inline-block;
+    margin-bottom:2em; 
 }
+
 section nav{
     width: 55em;
     margin-left: 2em;
 }
 
 
-#img1, #img2, #img3, #img4{
+#img1{
     
     display: inline-block;
 }
 
-#img5, #img6 ,#img7, #img8{
-    display: inline-block;
-}
-
-#img9, #img11, #img12, #img13{
-    display: inline-block;
-}
-
-#img14, #img15{
-    display: inline-block
+#menu ul li{
+    color:white;
 }
 
 .tamaño{
@@ -69,27 +62,13 @@ section nav{
     height: 370px;
 }
 
-/*Descripcion*/
-#des1 p, #des2 p, #des3 p, #des4 p{
+#des1 p{
+    font-family:'Lora', serif;
     width: 30em;
     
 }
 
-#des5 p, #des6 p, #des7 p, #des8 p{
-    width: 30em; 
-}
-
-#des9 p, #des11 p, #des12 p, #des13 p{
-    width: 30em; 
-}
-
-#des14 p, #des15 p{
-    width: 30em; 
-}
-/*Fin*/
-
-/*Ubicacion*/
-#des1, #des2, #des3, #des4{
+#des1{
     display: inline-block;
     margin-right: 3em;
     margin-left: 2em;
@@ -97,26 +76,6 @@ section nav{
     height: 100px;
 }
 
-#des5, #des6, #des7 ,#des8{
-    display: inline-block;
-    margin-right: 3em;
-    margin-left: 2em;
-    width: 300px;
-    height: 100px;
-}
-
-#des9, #des11, #des12, #des13{
-    display: inline-block;
-    margin-right: 3em;
-    margin-left: 2em;
-    width: 300px;
-    height: 100px;  
-}
-
-#des14, #des15{
-    display: inline-block;
-    margin-right: 3em;
-    margin-left: 2em;
-    width: 300px;
-    height: 100px;  
+footer{
+    height: 200px;
 }
