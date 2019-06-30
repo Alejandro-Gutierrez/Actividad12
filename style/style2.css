@@ -40,3 +40,17 @@ h2{
 footer{
     background: #253b44;
 }
+
+footer #p1{
+    color:white;
+    padding-top:20px; 
+    display: inline-block;
+    margin-left:250px; 
+}
+
+footer #p2{
+    color:white;
+    padding-top:20px; 
+    display: inline-block;
+    margin-left:670px; 
+}
